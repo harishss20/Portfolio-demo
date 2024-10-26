@@ -27,12 +27,12 @@ const About = () => {
           />
         </a>
         <a
-          href="https://discord.com/users/850297354862198814"
+          href="https://x.com/Harishssdev"
           target="_blank"
           rel="noopener noreferrer"
         >
           <img
-            src="public/discord.png" // Ensure this image path is correct
+            src="public/twitter.png"
             alt="Discord"
             className="w-10 h-10 rounded-xl"
           />
