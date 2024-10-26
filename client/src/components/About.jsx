@@ -49,19 +49,22 @@ const About = () => {
         />
       </div>
 
-      <div className="  ">
-        <h1 className="text-3xl font-bold mb-4 text-5xl">About Me</h1>
-        <p className="mb-6 text-2xl w-full">
+      <div className="flex flex-col min-h-screen justify-center items-center">
+        <h1 className="flex  text-3xl font-bold mb-4 text-5xl">About Me</h1>
+        <p className="mb-6 text-lg w-full">
           I'm <span class="text-red">Harish SS</span>, a passionate developer
-          who loves bringing ideas to life through clean code and intuitive
-          design. Focused on building impactful, user-centered applications, I’m
-          always ready to tackle new challenges and push the boundaries of
-          what’s possible. Excited to keep learning, growing, and creating
-          solutions that make a difference!
+          dedicated to transforming ideas into reality through clean code and
+          intuitive design. My focus is on crafting impactful, user-centered
+          applications that make a difference. I thrive on tackling new
+          challenges and pushing the boundaries of what’s possible. Always eager
+          to learn and grow, I'm excited to create innovative solutions that
+          elevate user experiences.
         </p>
-        <div>
-          <button> Resume</button>
-        </div>
+        <button class="flex ">
+          <img src="public/download.png " alt="my image" class="w-6 h-6 mr-2" />
+          Resume
+        </button>
+        <div></div>
       </div>
     </div>
   );
