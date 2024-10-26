@@ -10,12 +10,7 @@ function Navbar() {
         >
           About
         </a>
-        <a
-          href="#skills"
-          className="mx-4 text-center hover:text-red hover:duration-300 cursor-pointer text-white"
-        >
-          Skills
-        </a>
+
         <a
           href="#projects"
           className="mx-4 text-center hover:text-red hover:duration-300 cursor-pointer text-white"
