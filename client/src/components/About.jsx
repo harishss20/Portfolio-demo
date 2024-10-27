@@ -38,7 +38,7 @@ const About = () => {
           />
         </a>
       </div>
-      <div className="flex-none mr-20">
+      <div id="Animation-Profile" className="flex-none mr-20">
         <img
           src="public/profile.jpg"
           alt="Harish SS"
