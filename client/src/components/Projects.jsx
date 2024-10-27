@@ -30,7 +30,7 @@ function Projects() {
                   href={pro.github}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white border rounded-lg"
+                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white border rounded-lg hover:border-red duration-300"
                 >
                   Github
                   <svg

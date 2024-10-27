@@ -1,5 +1,5 @@
 import React from "react";
-
+import "../App.css";
 const About = () => {
   return (
     <div
@@ -55,8 +55,8 @@ const About = () => {
           About Me
         </h1>
         <p className="text-base md:text-lg mb-4 w-full md:w-auto">
-          I'm
-          <span className="text-red hover:text-white duration-300">
+          I'm{" "}
+          <span className="text-amber-300 hover:text-white duration-300">
             Harish SS
           </span>
           , a passionate developer committed to bringing innovative ideas to

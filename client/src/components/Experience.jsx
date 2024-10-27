@@ -6,55 +6,62 @@ function Experience() {
     <>
       <div id="experience">
         <h1 className="text-3xl w-20 mt-40 md:text-5xl font-bold mb-12 hover:text-red duration-300">
-          Projects
+          Experience
         </h1>
-        <div
-          id="Experiences"
-          className="flex flex-col md:flex-row md:space-x-12 space-y-6 md:space-y-0"
-        >
-          {Products.map((pro) => (
-            <div
-              className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
-              key={pro.id}
-            >
-              <a href="">
-                <img className="rounded-t-lg" src={pro.img} alt="" />
-              </a>
-              <div className="p-5">
-                <a href="" target="_blank" rel="noopener noreferrer">
-                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                    {pro.title}
-                  </h5>
-                </a>
-                <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                  {pro.disc}
-                </p>
-                <a
-                  href={pro.github}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white rounded-lg border"
-                >
-                  Github
-                  <svg
-                    className="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                    aria-hidden="true"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 14 10"
-                  >
-                    <path
-                      stroke="currentColor"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M1 5h12m0 0L9 1m4 4L9 9"
-                    />
-                  </svg>
-                </a>
-              </div>
+        <div className="space-y-4 p-6 bg-gray-900 text-white">
+          <div className="p-4 border border-gray-700 rounded-lg bg-gray-800">
+            <div className="flex items-center space-x-2">
+              <img
+                src="public/ex2.png"
+                alt="Vault Of Codes Logo"
+                className="h-6 w-6 rounded-sm"
+              />
+              <h2 className="text-lg font-semibold text-red">
+                Web Developer Intern
+              </h2>
+              <br />
+              <p className="text-purple-400 w-100">
+                Vault Of Codes{"    "}
+                <span className="dark:text-gray-400">
+                  (Jan 2024 - Feb 2024)
+                </span>
+              </p>
             </div>
-          ))}
+
+            <p className="mt-2 text-gray-300">
+              During this program, I honed my skills in React.js, Postman,
+              MongoDB, and Express.js, gaining hands-on experience in web
+              development. I had the opportunity to work on real-world projects,
+              enhancing both my technical and professional abilities. Grateful
+              for the support and learning opportunities throughout the
+              internship. Looking forward to the next steps in my journey as a
+              software developer!
+            </p>
+          </div>
+          <div className="p-4 border border-gray-700 rounded-lg bg-gray-800">
+            <div className="flex items-center space-x-2">
+              <img
+                src="public\ex1.png"
+                alt="CodeSpeedy Logo"
+                className="h-6 w-6 rounded-sm"
+              />
+              <h2 className="text-lg font-semibold text-red">
+                Java Software Developer Intern
+              </h2>
+              <p className="text-purple-400">
+                CodeSpeedy Technology Private Limited{" "}
+                <span className="dark:text-gray-400">(Jun-2023-Jul-2023)</span>
+              </p>
+            </div>
+
+            <p className="mt-2 text-gray-300">
+              During this program, I honed my Java programming skills and gained
+              hands-on experience in software development. I had the opportunity
+              to tackle real-world projects, and grow both technically and
+              professionally. Grateful for the support and learning
+              opportunities throughout the internship.
+            </p>
+          </div>
         </div>
       </div>
     </>
