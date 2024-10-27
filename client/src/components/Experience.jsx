@@ -1,5 +1,4 @@
 import React from "react";
-import Products from "./Utils.jsx";
 
 function Experience() {
   return (
@@ -12,7 +11,7 @@ function Experience() {
           <div className="p-4 border border-gray-700 rounded-lg bg-gray-800">
             <div className="flex items-center space-x-2">
               <img
-                src="public/ex2.png"
+                src="/ex2.png"
                 alt="Vault Of Codes Logo"
                 className="h-6 w-6 rounded-sm"
               />
@@ -38,7 +37,7 @@ function Experience() {
           <div className="p-4 border border-gray-700 rounded-lg mb-96 bg-gray-800">
             <div className="flex items-center space-x-2">
               <img
-                src="public/ex1.png"
+                src="/ex1.png"
                 alt="CodeSpeedy Logo"
                 className="h-6 w-6 rounded-sm"
               />

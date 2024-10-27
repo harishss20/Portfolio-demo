@@ -13,7 +13,7 @@ const About = () => {
           rel="noopener noreferrer"
         >
           <img
-            src="public/linkedin.png"
+            src="/linkedin.png"
             alt="LinkedIn"
             className="w-8 h-8 md:w-10 md:h-10 rounded-xl"
           />
@@ -24,7 +24,7 @@ const About = () => {
           rel="noopener noreferrer"
         >
           <img
-            src="public/github.jpg"
+            src="/github.jpg"
             alt="GitHub"
             className="w-8 h-8 md:w-10 md:h-10 rounded-xl"
           />
@@ -35,7 +35,7 @@ const About = () => {
           rel="noopener noreferrer"
         >
           <img
-            src="public/twitter.png"
+            src="/twitter.png"
             alt="Discord"
             className="w-8 h-8 md:w-10 md:h-10 rounded-xl"
           />
@@ -44,7 +44,7 @@ const About = () => {
 
       <div id="Animation-Profile" className="flex-none mb-4 md:mr-20">
         <img
-          src="public/profile.jpg"
+          src="/profile.jpg"
           alt="Harish SS"
           className="w-40 h-40 md:w-80 md:h-80 object-cover rounded-lg"
         />
@@ -67,8 +67,8 @@ const About = () => {
           innovative solutions that elevate user experiences.
         </p>
         <button className="flex items-center">
-          <img src="public/download.png" alt="Download" class="w-6 h-6 mr-2" />
-          <a href="public/HarishResume.pdf" className="text-white" download>
+          <img src="/download.png" alt="Download" class="w-6 h-6 mr-2" />
+          <a href="/HarishResume.pdf" className="text-white" download>
             Resume
           </a>
         </button>
