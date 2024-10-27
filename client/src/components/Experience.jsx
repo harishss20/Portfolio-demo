@@ -1,24 +1,27 @@
 import React from "react";
 import Products from "./Utils.jsx";
 
-function Projects() {
+function Experience() {
   return (
     <>
-      <div id="projects">
-        <h1 className="text-3xl w-20 md:text-5xl font-bold mb-12 text-center hover:text-red duration-300">
+      <div id="experience">
+        <h1 className="text-3xl w-20 mt-40 md:text-5xl font-bold mb-12 hover:text-red duration-300">
           Projects
         </h1>
-        <div className="flex flex-col md:flex-row md:flex-wrap justify-center gap-8">
+        <div
+          id="Experiences"
+          className="flex flex-col md:flex-row md:space-x-12 space-y-6 md:space-y-0"
+        >
           {Products.map((pro) => (
             <div
               className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
               key={pro.id}
             >
-              <a href={pro.github} target="_blank" rel="noopener noreferrer">
-                <img className="rounded-t-lg" src={pro.img} alt={pro.title} />
+              <a href="">
+                <img className="rounded-t-lg" src={pro.img} alt="" />
               </a>
-              <div className="p-5 text-center">
-                <a href={pro.github} target="_blank" rel="noopener noreferrer">
+              <div className="p-5">
+                <a href="" target="_blank" rel="noopener noreferrer">
                   <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                     {pro.title}
                   </h5>
@@ -30,7 +33,7 @@ function Projects() {
                   href={pro.github}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white border rounded-lg"
+                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white rounded-lg border"
                 >
                   Github
                   <svg
@@ -58,4 +61,4 @@ function Projects() {
   );
 }
 
-export default Projects;
+export default Experience;
