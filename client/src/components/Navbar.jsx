@@ -31,7 +31,10 @@ function Navbar() {
           >
             Experience
           </a>
-          <a href="#contact" className="text-white hover:text-red duration-300">
+          <a
+            href="mailto:harishssdev@gmail.com"
+            className="text-white hover:text-red duration-300"
+          >
             Contact
           </a>
         </nav>
@@ -69,7 +72,7 @@ function Navbar() {
             Experience
           </a>
           <a
-            href="#contact"
+            href="mailto:harishssdev@gmail.com"
             className="text-white hover:text-red duration-300"
             onClick={toggleMenu}
           >

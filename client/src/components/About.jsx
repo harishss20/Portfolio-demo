@@ -68,7 +68,9 @@ const About = () => {
         </p>
         <button className="flex items-center">
           <img src="public/download.png" alt="Download" class="w-6 h-6 mr-2" />
-          Resume
+          <a href="public/HarishResume.pdf" className="text-white" download>
+            Resume
+          </a>
         </button>
       </div>
     </div>
