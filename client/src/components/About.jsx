@@ -52,7 +52,7 @@ const About = () => {
 
       {/* About Text */}
       <div className="flex flex-col min-h-screen md:justify-center items-center text-center md:text-left">
-        <h1 className="text-3xl md:text-5xl font-bold mb-2 md:mb-4">
+        <h1 className="text-3xl md:text-5xl font-bold mb-2 hover:text-red md:mb-4">
           About Me
         </h1>
         <p className="text-base md:text-lg mb-4 w-full md:w-auto">
