@@ -74,12 +74,11 @@ button:hover {
 
 #Animation-Profile {
   border: 2px solid red;
-
   animation-duration: 2s;
-  animation-name: ani;
+  animation-name: profile;
   animation-fill-mode: forwards;
 }
-@keyframes ani {
+@keyframes profile {
   0% {
     scale: 1.1;
   }
