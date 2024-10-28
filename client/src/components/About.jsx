@@ -1,12 +1,13 @@
 import React from "react";
 import "../App.css";
+
 const About = () => {
   return (
     <div
       id="about"
       className="flex flex-col md:flex-row items-center mt-40 mb-40 w-full text-white p-4"
     >
-      <div className="flex-none md:flex-col  space-x-4 md:mr-12 mb-4 md:mb-0">
+      <div className="flex flex-none md:flex-col items-center justify-center space-x-4 md:space-x-0 md:space-y-4 mb-4 md:mb-0 md:mr-12">
         <a
           href="https://linkedin.com/in/harishssdev"
           target="_blank"
@@ -36,17 +37,17 @@ const About = () => {
         >
           <img
             src="/twitter.png"
-            alt="Discord"
+            alt="Twitter"
             className="w-8 h-8 md:w-10 md:h-10 rounded-xl"
           />
         </a>
       </div>
 
-      <div id="Animation-Profile" className="flex-none mb-4 md:mr-20">
+      <div id="Animation-Profile" className="flex-none mb-4 md:mb-0 md:mr-20">
         <img
           src="/profile.jpg"
           alt="Harish SS"
-          className="w-40 h-40 md:w-80 md:h-80 object-cover rounded-lg"
+          className="w-32 h-32 md:w-64 md:h-64 lg:w-80 lg:h-80 object-cover rounded-lg"
         />
       </div>
 
@@ -67,7 +68,7 @@ const About = () => {
           innovative solutions that elevate user experiences.
         </p>
         <button className="flex items-center">
-          <img src="/download.png" alt="Download" class="w-6 h-6 mr-2" />
+          <img src="/download.png" alt="Download" className="w-6 h-6 mr-2" />
           <a href="/HarishResume.pdf" className="text-white" download>
             Resume
           </a>

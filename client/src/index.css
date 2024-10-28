@@ -90,20 +90,11 @@ button:hover {
 }
 
 #about {
-  animation-name: about-Ani;
+  animation-name: project-Ani;
   animation-duration: 2s;
-  animation-timeline: view();
+  animation-fill-mode: forwards;
 }
-@keyframes about-Ani {
-  0% {
-    scale: 0.5;
-    opacity: 0;
-  }
-  80% {
-    scale: 1;
-    opacity: 1;
-  }
-}
+
 @keyframes project-Ani {
   from {
     opacity: 0;
